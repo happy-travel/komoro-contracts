@@ -1,0 +1,19 @@
+﻿using HappyTravel.Geography;
+
+namespace HappyTravel.KomoroContracts.Statics;
+
+public record SlimProperty
+{
+    public int Id { get; init; }
+    public int SupplierId { get; init; }
+    public string Name { get; init; } = string.Empty;
+    public Address Address { get; init; } = null!;
+    public GeoPoint Coordinates { get; init; } = new();
+    public string Phone { get; init; } = string.Empty;
+    public int StarRating { get; init; }
+    public Contact PrimaryContact { get; init; } = null!;
+    public string ReservationEmail { get; init; } = string.Empty;
+    public TimeSpan CheckInTime { get; init; }
+    public TimeSpan CheckOutTime { get; init; }
+    public PassengerAge PassengerAge { get; init; } = null!;
+}
