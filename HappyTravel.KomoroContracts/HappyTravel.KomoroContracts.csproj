@@ -10,6 +10,8 @@
 	<Company>HappyTravel</Company>
 	<Description>Inter-service contracts for interaction between Komoro, OpenTravel connector and Channel Managers</Description>
 	<PackageReleaseNotes>Initial release. Contains only static models and enums</PackageReleaseNotes>
+  <PackageProjectUrl>https://github.com/happy-travel/komoro-contracts</PackageProjectUrl>
+  <RepositoryUrl>https://github.com/happy-travel/komoro-contracts</RepositoryUrl>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
