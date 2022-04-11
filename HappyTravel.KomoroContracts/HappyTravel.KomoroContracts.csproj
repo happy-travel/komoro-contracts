@@ -4,10 +4,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>10</LangVersion>
-    <Version>0.1.4</Version>
+    <Version>0.1.5</Version>
     <Authors>Alexey Shokarev</Authors>
     <Company>HappyTravel</Company>
-    <Description>Added Code to property and room type models. Added descriptions to rate plans</Description>
+    <Description>Added AvailabilityRestriction model</Description>
     <PackageReleaseNotes>Updated packages</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/happy-travel/komoro-contracts</PackageProjectUrl>
     <RepositoryUrl>https://github.com/happy-travel/komoro-contracts</RepositoryUrl>
