@@ -2,7 +2,7 @@
 
 namespace HappyTravel.KomoroContracts.Availabilities
 {
-    public record RestrictionStatus
+    public record RestrictionStatusDetails
     {
         public RestrictionTypes? Restriction { get; init; }
         public RestrictionStatuses? Status { get; init; }

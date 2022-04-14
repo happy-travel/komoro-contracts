@@ -4,10 +4,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>10</LangVersion>
-    <Version>0.1.6</Version>
+    <Version>0.1.7</Version>
     <Authors>Alexey Shokarev</Authors>
     <Company>HappyTravel</Company>
-    <Description>Fixed AvailabilityRestriction model</Description>
+    <Description>Renamed some classes and properties</Description>
     <PackageReleaseNotes>Updated packages</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/happy-travel/komoro-contracts</PackageProjectUrl>
     <RepositoryUrl>https://github.com/happy-travel/komoro-contracts</RepositoryUrl>
