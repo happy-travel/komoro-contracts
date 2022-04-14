@@ -4,11 +4,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>10</LangVersion>
-    <Version>0.1.7</Version>
+    <Version>0.1.8</Version>
     <Authors>Alexey Shokarev</Authors>
     <Company>HappyTravel</Company>
-    <Description>Renamed some classes and properties</Description>
-    <PackageReleaseNotes>Updated packages</PackageReleaseNotes>
+    <Description>Inter-service contracts for interaction between Komoro, OpenTravel connector and Channel Managers</Description>
+    <PackageReleaseNotes>Spelling error fixed</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/happy-travel/komoro-contracts</PackageProjectUrl>
     <RepositoryUrl>https://github.com/happy-travel/komoro-contracts</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
