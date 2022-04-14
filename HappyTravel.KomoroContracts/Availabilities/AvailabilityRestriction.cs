@@ -8,6 +8,6 @@ public record class AvailabilityRestriction
     public DateOnly EndDate { get; init; }
     public string RoomTypeCode { get; init; } = string.Empty;
     public string RatePlanCode { get; init; } = string.Empty;
-    public RestrictionStatus? RestrictionStatus { get; init; }
-    public LengthOfStay? LengthOfStay { get; init; }
+    public RestrictionStatusDetails? RestrictionStatusDetalis { get; init; }
+    public StayDurationDetails? StayDurationDetails { get; init; }
 }
