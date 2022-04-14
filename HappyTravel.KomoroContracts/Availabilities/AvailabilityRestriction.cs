@@ -2,7 +2,7 @@
 
 public record class AvailabilityRestriction
 {
-    public int Id { get; init; }
+    public int SupplierId { get; init; }
     public string PropertyCode { get; init; } = string.Empty;
     public DateOnly StartDate { get; init; }
     public DateOnly EndDate { get; init; }
