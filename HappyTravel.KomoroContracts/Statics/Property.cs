@@ -6,7 +6,7 @@ public record Property
 {
     public int Id { get; init; }
     public string Code { get; init; } = string.Empty;
-    public int SupplierId { get; init; }
+    public string SupplierCode { get; init; } = string.Empty;
     public string Name { get; init; } = string.Empty;
     public Address Address { get; init; } = null!;
     public GeoPoint Coordinates { get; init; } = new();
