@@ -4,11 +4,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>10</LangVersion>
-    <Version>0.2.1</Version>
+    <Version>0.2.2</Version>
     <Authors>Alexey Shokarev</Authors>
     <Company>HappyTravel</Company>
     <Description>Inter-service contracts for interaction between Komoro, OpenTravel connector and Channel Managers</Description>
-    <PackageReleaseNotes>Added inventory models</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed minor bug</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/happy-travel/komoro-contracts</PackageProjectUrl>
     <RepositoryUrl>https://github.com/happy-travel/komoro-contracts</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
