@@ -1,13 +1,14 @@
 ﻿namespace HappyTravel.KomoroContracts.Availabilities;
 
-public record AvailabilityRestriction
+public record UpdateInventoryRequest
 {
     public string SupplierCode { get; init; } = string.Empty;
     public string PropertyCode { get; init; } = string.Empty;
+
+    public List<InventoryDetails> InventoryDetails { get; init; } = null!;
     public DateOnly StartDate { get; init; }
     public DateOnly EndDate { get; init; }
-    public string RoomTypeCode { get; init; } = string.Empty;
+    public string RoomTypeCode { get; init; } = null!;
     public string RatePlanCode { get; init; } = string.Empty;
-    public RestrictionStatusDetails? RestrictionStatusDetails { get; init; }
-    public StayDurationDetails? StayDurationDetails { get; init; }
+    public int NumberOfAvailableRooms { get; init; }
 }
