@@ -7,5 +7,5 @@ public record InventoryDetails
     public string RoomTypeCode { get; init; } = string.Empty;
     public string RatePlanCode { get; init; } = string.Empty;
     public int NumberOfAvailableRooms { get; init; }
-    public int NumberOfBookedRooms { get; init; }
+    public int? NumberOfBookedRooms { get; init; }
 }
