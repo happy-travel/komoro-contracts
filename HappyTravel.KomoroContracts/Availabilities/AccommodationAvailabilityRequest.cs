@@ -3,5 +3,5 @@
 public record AccommodationAvailabilityRequest
 {
     public string AccommodationId { get; init; } = string.Empty;
-    public List<RoomContractSetRequest> RoomContractSetRequests = new();
+    public List<RoomContractSetRequest> RoomContractSetRequests { get; init; } = new();
 }
