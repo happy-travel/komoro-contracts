@@ -1,8 +1,7 @@
-﻿namespace HappyTravel.KomoroContracts.Availabilities
+﻿namespace HappyTravel.KomoroContracts.Availabilities;
+
+public record AccommodationAvailabilityRequest
 {
-    public record AccommodationAvailabilityRequest
-    {
-        public string AccommodationId { get; init; } = string.Empty;
-        public List<RoomContractSetRequest> RoomContractSetRequests = new();
-    }
+    public string AccommodationId { get; init; } = string.Empty;
+    public List<RoomContractSetRequest> RoomContractSetRequests = new();
 }
