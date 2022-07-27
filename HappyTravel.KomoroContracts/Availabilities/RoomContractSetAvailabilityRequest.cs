@@ -2,8 +2,8 @@
 
 namespace HappyTravel.KomoroContracts.Availabilities;
 
-public record AccommodationAvailabilityRequest
+public record RoomContractSetAvailabilityRequest
 {
     public AvailabilityRequest AvailabilityRequest { get; init; }
-    public List<RoomContractSetRequest> RoomContractSetRequests { get; init; } = new();
+    public List<RoomContractRequest> RoomContractRequests { get; init; } = new();
 }

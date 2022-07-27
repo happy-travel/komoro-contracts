@@ -4,16 +4,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>10</LangVersion>
-    <Version>0.2.5</Version>
+    <Version>0.2.7</Version>
     <Authors>Alexey Shokarev</Authors>
     <Company>HappyTravel</Company>
     <Description>Inter-service contracts for interaction between Komoro, OpenTravel connector and Channel Managers</Description>
-    <PackageReleaseNotes>Added request models for 2 and 3 search steps</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed request models for 2 and 3 search steps</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/happy-travel/komoro-contracts</PackageProjectUrl>
     <RepositoryUrl>https://github.com/happy-travel/komoro-contracts</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="HappyTravel.EdoContracts" Version="2.7.1" />
     <PackageReference Include="HappyTravel.Geography" Version="1.6.4" />
     <PackageReference Include="HappyTravel.Money" Version="1.5.0" />
   </ItemGroup>
