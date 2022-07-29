@@ -14,7 +14,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="HappyTravel.EdoContracts" Version="2.7.1" />
+    <PackageReference Include="HappyTravel.EdoContracts" Version="2.7.2" />
     <PackageReference Include="HappyTravel.Geography" Version="1.6.4" />
     <PackageReference Include="HappyTravel.Money" Version="1.5.0" />
   </ItemGroup>
